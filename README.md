@@ -6,6 +6,7 @@ This effort focuses on porting and optimizing BioExcel tools—a suite of biomol
 
 Install PMX 
 ```bash
+git clone https://github.com/yetulaxman/BioExcel_tools.git
 bash setup_script.sh
 bash ood_script.sh
 ```
