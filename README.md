@@ -21,7 +21,7 @@ bash ood_script.sh # edit project and user name as needed
 
 ## Running the notebook as a batch job (testing phase)
 
-GitHub repository contains standalone batch script: pmx_batch.sh.  You can launch the script it as below:
+GitHub repository contains standalone batch script: pmx_batch.sh.  To launch the script:
 ```bash
 sbatch pmx_batch.sh
 ```
