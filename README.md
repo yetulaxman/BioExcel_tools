@@ -18,3 +18,10 @@ bash ood_script.sh # change project name and user names as needed
 1. Login to [LUMI web interface](https://www.lumi.csc.fi/public/) with your CSC account
 2. Once login is successfull, you can click "Jupyter for courses" from pinned apps on landing page. Once the app is launched, you can see the different fields to fill in before launching a job. For this pmx notebook, select your own project with course module as "pmx". You can use scratch folder (/scratch/project...) as  working directory.  You can also change the default settings by checking "Show custom resource settings". 
 3. Upon successful launching a job, you can click on "connect to Jupyter" to see the course notebook corresponidng to pmx.
+
+## Launching notebook as a batch job (testing phase)
+
+There is a standalone script, pmx_batch.sh in this GitHub repository.  You can launch the script  as below:
+```bash
+sbatch pmx_batch.sh
+```
