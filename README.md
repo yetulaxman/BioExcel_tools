@@ -23,5 +23,5 @@ bash ood_script.sh # edit project and user name as needed
 
 GitHub repository contains standalone batch script: pmx_batch.sh.  To launch the script:
 ```bash
-sbatch pmx_batch.sh
+sbatch pmx_batch.sh  # edit project and user name as needed before launching the script
 ```
